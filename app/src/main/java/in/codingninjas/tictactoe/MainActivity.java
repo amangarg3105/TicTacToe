@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
            resetBoard();
         }else if(id == R.id.settings){
          //   Math.random()
+            //To the AI Activity 
             Intent i = new Intent(MainActivity.this,AIActivity.class);
             startActivity(i);
             finish();
